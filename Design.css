@@ -311,12 +311,173 @@ html{
     font-size: 14px;
 }
 
-.skills .skill .javascript{
+.skills .skill .arduino{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s arduino forwards;
 }
 
-@keyframes javascript {
+@keyframes arduino {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .unity{
+    width: 0%;
+    animation: 2s unity forwards;
+}
+
+@keyframes unity {
+    0%{width: 0%;}
+    100%{width: 25%;}
+}
+
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+
+@keyframes java {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .cyc{
+    width: 0%;
+    animation: 2s cyc forwards;
+}
+
+@keyframes cyc {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .htmlycss{
+    width: 0%;
+    animation: 2s htmlycss forwards;
+}
+
+@keyframes htmlycss {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .sonyvegas{
+    width: 0%;
+    animation: 2s sonyvegas forwards;
+}
+
+@keyframes sonyvegas {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
     0%{width: 0%;}
     100%{width: 75%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .pmanagment{
+    width: 0%;
+    animation: 2s pmanagment forwards;
+}
+
+@keyframes pmanagment {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+/*Seccion curriculum*/
+
+.curriculum{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;   
+}
+
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'PT serif', serif;
+    text-align: center;
+    padding: 20px 0;   
+}
+
+.curriculum .fila{
+    display: flex;
+}
+
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .fila .col h3{
+    font-size: 28px;
+    font-family: 'PT serif', serif;
+    margin-bottom: 25px;
+}
+
+.curriculum .fila .izquierda{
+     border-right: 2px solid #252A2E;
+}
+
+
+.curriculum .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
 }
