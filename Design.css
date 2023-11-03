@@ -381,6 +381,37 @@ html{
     100%{width: 70%;}
 }
 
+.skills .skill .ryrstudio{
+    width: 0%;
+    animation: 2s ryrstudio forwards;
+}
+
+@keyframes ryrstudio {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+
+.skills .skill .linux{
+    width: 0%;
+    animation: 2s linux forwards;
+}
+
+@keyframes linux {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .machinelearning{
+    width: 0%;
+    animation: 2s machinelearning forwards;
+}
+
+@keyframes machinelearning {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
 .skills .skill .comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;

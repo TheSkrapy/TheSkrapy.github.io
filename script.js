@@ -30,11 +30,14 @@ function efectoHabilidades(){
         habilidades [4].classList.add("htmlycss");
         habilidades [5].classList.add("sonyvegas");
         habilidades [6].classList.add("photoshop");
-        habilidades [7].classList.add("comunicacion");
-        habilidades [8].classList.add("trabajo");
-        habilidades [9].classList.add("creatividad");
-        habilidades [10].classList.add("dedicacion");
-        habilidades [11].classList.add("pmanagment");
+        habilidades [7].classList.add("ryrstudio");
+        habilidades [8].classList.add("linux");
+        habilidades [9].classList.add("machinelearning");
+        habilidades [10].classList.add("comunicacion");
+        habilidades [11].classList.add("trabajo");
+        habilidades [12].classList.add("creatividad");
+        habilidades [13].classList.add("dedicacion");
+        habilidades [14].classList.add("pmanagment");
     }
 }
 
