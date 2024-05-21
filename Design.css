@@ -545,6 +545,7 @@ html{
     padding: 25px;
     margin-bottom: 30px;
     background-color: #252A2E;
+    text-align: justify;
     position: relative;
 }
 
@@ -803,7 +804,7 @@ html{
 
 .contacto button{
     cursor: pointer;
-    background-color: transparent;
+    background-color:  #252A2E;
     border: 2px solid #fff;
     width: fit-content;
     display: block;
