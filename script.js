@@ -38,6 +38,9 @@ function efectoHabilidades(){
         habilidades [12].classList.add("creatividad");
         habilidades [13].classList.add("dedicacion");
         habilidades [14].classList.add("pmanagment");
+        habilidades [15].classList.add("empathy");
+        habilidades [16].classList.add("negotiation");
+        habilidades [17].classList.add("criticalt");
     }
 }
 
