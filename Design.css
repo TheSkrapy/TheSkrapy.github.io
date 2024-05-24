@@ -838,7 +838,9 @@ html{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252A2E;
+    font-size: 3em;
+    text-align: center;
+    color:#252A2E;
     padding: 20px;
     max-width: 350%;
     left: 50%;

@@ -81,6 +81,10 @@
                                 <strong>Carrer</strong>
                                 IT Enginner 
                             </li>
+                            <li>
+                                <strong>Work availability</strong>
+                                Open to work
+                            </li>
                         </ul>
                     </div>
                     
@@ -465,21 +469,30 @@
 
     <!--Seccion Contacto-->
     <section id="contacto" class="contacto">
-        <h2>Contacto</h2>
+        <h2>Contact</h2>
         <div class="fila">
             <!--Formulario-->
             <div class="col">
-                <input type="text" placeholder="Tu nombre">
-                <input type="text" placeholder="Numero telefonico">
-                <input type="text" placeholder="Direccion de correo">\
-                <input type="text" placeholder="Tema">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button>
-                    Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
-                    <span class="overlay"></span>
-                </button>
+                <form action="https://formspree.io/f/xdoqvdre" method="POST">
+                    <input type="text" name="Name" id="name" placeholder="Your name" required oninvalid="this.setCustomValidity('Please fill out this field')" oninput="this.setCustomValidity('')">
+                    <input type="text" name="Phone" id="phone" placeholder="Your phone number">
+                    <input type="email" name="Email" id="email" placeholder="Your email address" required oninvalid="this.setCustomValidity('Please fill out this field')" oninput="this.setCustomValidity('')">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required oninvalid="this.setCustomValidity('Please fill out this field')" oninput="this.setCustomValidity('')">
+                    <textarea name="Message" id="message" cols="30" rows="10" placeholder="Message" required oninvalid="this.setCustomValidity('Please fill out this field')" oninput="this.setCustomValidity('')"></textarea>
+                    
+                    <button id="submitForm" type="submit">
+                        Send message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
             </div>
-            <!--Mapa-->
+
+            <div class="col">
+                <div class="info">
+                    <h2 class="Thanks">Thanks for viewing my profile</h2>
+                </div>
+            </div>
+            <!--Mapa
             <div class="col">
                 <img src="default.jpg" alt="">
                 <div class="info">
@@ -498,7 +511,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
