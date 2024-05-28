@@ -633,6 +633,8 @@ html{
     padding: 50px 20px;   
 }
 
+
+
 .portafolio .contenido-seccion{
     max-width: 1100px;
     margin: auto;
@@ -642,7 +644,7 @@ html{
     font-size: 48px;
     font-family: 'PT serif', serif;
     text-align: center;
-    padding: 20px 0;   
+    padding: 20px 0;  
 }
 
 .portafolio .galeria{
@@ -657,6 +659,17 @@ html{
     height: fit-content;
     margin: 10px;
     cursor: pointer;
+}
+
+.portafolio .galeria .proyecto .a {
+    text-decoration: none;
+    color:#131517;
+}
+
+
+.portafolio .galeria .proyecto a:hover,
+.portafolio .galeria .proyecto a:active {
+    color: black; 
 }
 
 .portafolio .galeria .proyecto img{
@@ -678,6 +691,7 @@ html{
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+    color: #131517;
 }
 
 .portafolio .galeria .proyecto .overlay h3{
